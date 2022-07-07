@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 const cookieSession = require("cookie-session");
 const consola = require("consola");
 
-const host = process.env.HOST || "127.0.0.1";
+const host = process.env.HOST || "0.0.0.0";
 const port = process.env.PORT || 3001;
 
 const mongoose = require("mongoose");

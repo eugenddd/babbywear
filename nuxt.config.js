@@ -265,18 +265,18 @@ export default {
   // },
 
   axios: {
-    baseURL: "http://localhost:3001", // Used as fallback if no runtime config is provided
+    baseURL: "https://0.0.0.0:3001", // Used as fallback if no runtime config is provided
   },
 
   publicRuntimeConfig: {
     axios: {
-      browserBaseURL: process.env.baseURL,
+      browserBaseURL: "https://0.0.0.0:3001/",
     },
   },
 
   privateRuntimeConfig: {
     axios: {
-      baseURL: process.env.baseURL,
+      baseURL: "https://0.0.0.0:3001",
     },
   },
 
