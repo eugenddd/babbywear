@@ -45,7 +45,19 @@
     "vue-material": "^1.0.0-beta-15",
     "vue-multiselect": "^2.1.6",
     "vue-scrollto": "^2.18.1",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+    "aliexpress-product-scraper": "^1.0.6",
+    "body-parser": "^1.20.0",
+    "consola": "^2.15.3",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-module": "^3.0.2",
